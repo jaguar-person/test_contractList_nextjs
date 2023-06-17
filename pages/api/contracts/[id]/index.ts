@@ -19,11 +19,9 @@ const handler = async (
     let error = false;
     if (!status) {
       error = true;
-      console.error("A status is expected");
     }
     if (!["ISSUED"].includes(status)) {
       error = true;
-      console.error("The status can only be updated to ISSED");
     }
 
     if (error) {
