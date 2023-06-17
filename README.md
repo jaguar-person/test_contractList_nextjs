@@ -6,7 +6,7 @@ First of all, don't stress! This test is not a trap. It is designed to check tha
 
 And, if you are really stuck, don't hesitate to ping your interviewer. They are here to help!
 
-This test lasts 2 hours, please inform your recruiter when you are done. If you are successful, we'll follow-up with a 45 minutes debrief with one of our engineers. 
+This test lasts 2 hours, please inform your recruiter when you are done. If you are successful, we'll follow-up with a 45 minutes debrief with one of our engineers.
 
 ## Setup the Project
 
@@ -66,14 +66,6 @@ This install the dependencies through docker. It is one of the only two docker c
 
 This starts the web application.
 Running it with `:docker` will start both the database container and the web application container. They will then run in the terminal, so you will need to open a new terminal/tab if you want to run more commands.
-
-### `yarn lint` and `yarn lint:docker`
-
-This runs the linter on the code. If ran through docker, you will need to have started the containers with `yarn start:docker` in another terminal first.
-
-### `yarn migrate` and `yarn migrate:docker`
-
-This runs the migrations on the database to have it up to date and seeded. If ran through docker, you will need to have started the containers with `yarn start:docker` in another terminal first.
 
 ### `yarn reset` and `yarn reset:docker`
 
